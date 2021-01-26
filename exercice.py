@@ -3,7 +3,7 @@
 def majuscule(mot):
     # TODO completer la fonction ici
     mot_majuscule = ""
-    for var in mot :
+    for var in mot:
         mot_majuscule += chr(ord(var)-32)
 
     return mot_majuscule
